@@ -15,7 +15,7 @@ $(document).ready(function() {
 	$('#uploadSubmitId').bind("click",function() 
 	{ 
 		var imgVal = $('#uploadFileId').val(); 
-		if(imgVal=='') 
+	if(imgVal=='') 
 	{ 
 		alert("Please Select File.."); 
 		return false; 
