@@ -20,10 +20,10 @@ $(document).ready(function() {
 		} 
 		else {
 			var confirmation = confirm("Sure to Delete Data!");
-			if (confirmation ==true){
+			if (confirmation ==true) {
 				return true; 
 			}
-			else{
+			else {
 				return false; 
 			} 
 		}
