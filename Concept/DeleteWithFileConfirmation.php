@@ -13,8 +13,8 @@
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#uploadSubmitId').bind("click",function() { 
-		var imgVal = $('#uploadFileId').val(); 
-		if(imgVal=='') { 
+		var fileVal = $('#uploadFileId').val(); 
+		if(fileVal=='') { 
 			alert("Please Select File.."); 
 			return false; 
 		} 
